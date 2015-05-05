@@ -1,0 +1,189 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+/* Custom */
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f4f4f4;
+}
+
+#test {
+	margin: 0 auto;
+	max-width: 1300px;
+
+}
+
+.rssHeader {
+	display: none;
+}
+
+.rssBody {
+	padding: 0;
+	line-height: 20px;
+}
+
+ul {
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+	margin: 0.5%;
+  width: 30%;
+  vertical-align: top;
+  background-color: white;
+  padding: 15px;
+  border: solid #edecec 1px;
+  box-sizing: border-box;
+  text-align: left;
+
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+li div {
+	font-size: 10px;
+	color: gray;
+
+	margin-bottom: 6px;
+}
+
+li p {
+	color: black;
+	font-size: 15px;
+	line-height: 1.4;
+	float: bottom;
+	margin-bottom: 10px;
+
+}
+
+.rssBody a {
+	text-decoration: none;
+	color: #343434;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.rssBody h4 {
+	text-align: center;
+	line-height: 1.4;
+	background-repeat: no-repeat; 
+	background-size: cover;
+  background-position: 50% 50%;
+  height: 150px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  position: relative;
+
+}
+
+.rssBody h4 a {
+	background-color: #383E42;
+  color: #FFF;
+  padding: 5px 10px;
+  vertical-align: bottom;
+  box-sizing: border-box;
+  bottom: 0;
+  text-align: left;
+  position: absolute;
+  left: 0;
+  width: 96%;
+  display: inline;
+  margin: 0 2% 2% 2%;
+}
+
+.rssBody ul li:nth-child(1) h4 {
+	background-image: url(../img/img.jpg);
+}
+
+.rssBody ul li:nth-child(2) h4 {
+	background-image: url(../img/imgAngularblur.jpg);
+}
+
+.rssBody ul li:nth-child(3) h4 {
+	background-image: url(../img/imgKafkablur.jpg);
+}
+
+.rssBody ul li:nth-child(4) h4 {
+	background-image: url(../img/imgCycleblur.jpg);
+}
+
+.rssBody ul li:nth-child(5) h4 {
+	background-image: url(../img/imgBottleblur.jpg);
+}
+
+.rssBody ul li:nth-child(6) h4 {
+	background-image: url(../img/imgVisualblur.jpg);
+}
+
+
+
+@media screen and (max-width: 1000px) {
+	.rssBody {
+}
+
+	li {
+		width: 45%;
+	}
+}
+
+@media screen and (max-width: 650px) {
+
+	li {
+		width: auto;
+		height: auto;
+		background-image: none;
+	}
+
+}
+
+
+
+
